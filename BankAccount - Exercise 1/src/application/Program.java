@@ -12,6 +12,8 @@ public class Program {
         Scanner input = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
+
+        System.out.println("- OOP #1 Exercise -");
         System.out.print("Enter account ID: ");
         int accountID = input.nextInt();
 
