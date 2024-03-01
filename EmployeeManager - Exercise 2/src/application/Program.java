@@ -28,7 +28,8 @@ public class Program {
             registeredIDs.add(id);
 
             System.out.print("- Enter a name: ");
-            String name = input.next();
+            input.nextLine();
+            String name = input.nextLine();
             System.out.print("- Enter a salary: ");
             double salary = input.nextDouble();
 
